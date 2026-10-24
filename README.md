@@ -16,7 +16,7 @@ For each algorithm it reports:
 - CPU finish time
 - Total number of context switches
 
-The project report compared RR with quantum **q = 20 ms** and **q = 200 ms** against FCFS. Its finding was that Round Robin gave lower waiting and turnaround times than FCFS. With q = 200, RR behaved much like FCFS. With q = 20, the extra context switching raised waiting time for some processes.
+The project report ([`docs/OS_CPU_Scheduling_Report.pdf`](docs/OS_CPU_Scheduling_Report.pdf); student IDs removed) compared RR with quantum **q = 20 ms** and **q = 200 ms** against FCFS. Its finding was that Round Robin gave lower waiting and turnaround times than FCFS. With q = 200, RR behaved much like FCFS. With q = 20, the extra context switching raised waiting time for some processes.
 
 ## Tech Stack
 
@@ -66,14 +66,15 @@ The Round Robin routine is a simplified model. Each process runs for one quantum
 cpu-scheduler/
 ├── src/cpuscheduler/CPUScheduler.java   # Process model, file parsing, FCFS + RR
 ├── data/CPU-NewData.txt                 # sample input
+├── docs/OS_CPU_Scheduling_Report.pdf
 ├── nbproject/  build.xml  manifest.mf
 └── LICENSE
 ```
 
 ## Credits
 
-Group project for the Operating Systems course at Umm Al-Qura University (group of three).
-Built by **Hala Jalal** and teammates as a university project at Umm Al-Qura University (Operating Systems).
+Team project for the Operating Systems course at Umm Al-Qura University (Group No. 2).
+Team members (from the course report): Jana Abdulrahman Alqurashi, Hala Mohammed Jalal, and Azizah Hamed Alamari.
 
 ## License
 
